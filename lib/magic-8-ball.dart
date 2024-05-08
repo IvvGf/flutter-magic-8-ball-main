@@ -31,7 +31,7 @@ class _DiceRollerState extends State<DiceRoller> {
       children: [
         Image.asset(
           'assets/images/dice-$currentDiceRoll.png',
-          width: 200,
+          width: 300,
         ),
         const SizedBox(height: 20),
         TextButton(

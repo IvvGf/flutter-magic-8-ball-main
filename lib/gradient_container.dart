@@ -1,4 +1,4 @@
-import 'package:custom_app_test/dice_roller.dart';
+import 'package:custom_app_test/magic-8-ball.dart';
 import 'package:flutter/material.dart';
 // import 'package:custom_app_test/styled_text.dart';
 
@@ -25,9 +25,8 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: const Center(
-        // child: StyledText('Hello World!')),
-        child: DiceRoller()
-      ),
+          // child: StyledText('Hello World!')),
+          child: DiceRoller()),
     );
   }
 }
